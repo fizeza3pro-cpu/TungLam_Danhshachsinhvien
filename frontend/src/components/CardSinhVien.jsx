@@ -165,7 +165,7 @@ const CardSinhVien = ({ sv, index, handleSinhVienChange }) => {
                 />
                 <div className="flex gap-6 w-full">
                   <Input
-                    value={svUpdate.ma}
+                    value={svUpdate.lop}
                     onChange={(e) =>
                       setsvUpdate({ ...svUpdate, lop: e.target.value })
                     }
